@@ -602,7 +602,7 @@ nav a:hover {
         top: 70px;
         left: 0;
         width: 100%;
-        background-color: #ffffff;
+        background-color: var(--bg-color);
         padding: 20px;
         text-align: center;
     }
