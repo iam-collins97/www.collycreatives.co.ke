@@ -250,6 +250,18 @@ body.dark-mode .theme-btn .sun-icon {
     text-align: left;
     transition: transform 0.2s ease;
 }
+.skills-category:nth-child(2) {
+    animation-delay: 0.3s;
+}
+.skills-category:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.skills-category:nth-child(4) {
+    animation-delay: 0.9s;
+}
+.skills-category:nth-child(5) {
+    animation-delay: 1.2s;
+}
 .skills-category h3 {
     font-size: 28px;
     text-align: center;
@@ -316,6 +328,12 @@ body.dark-mode .theme-btn .sun-icon {
     margin-right: auto;
     transition: transform 0.2s ease;
     animation: float 3s ease-in-out infinite;
+}
+.project-card:nth-child(2) {
+    animation-delay: 0.5s;
+}
+.project-card:nth-child(3) {
+    animation-delay: 1s;
 }
 @keyframes float {
     0% {
