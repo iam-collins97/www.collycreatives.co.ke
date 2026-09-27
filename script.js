@@ -80,3 +80,6 @@ function drawLines() {
         }
     }
 }
+window.addEventListener('resize', () => {
+    resizeCanvas();
+});
