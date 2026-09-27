@@ -219,6 +219,9 @@ body.dark-mode .theme-btn .sun-icon {
     padding: 100px 20px;
     background-color: var(--bg-secondary);
 }
+.skill:nth-child(odd) {
+    animation-delay: 0.4s;
+}
 .skills h2 {
     font-size: 40px;
     margin-bottom: 20px;
@@ -249,6 +252,7 @@ body.dark-mode .theme-btn .sun-icon {
     margin-bottom: 30px;
     text-align: left;
     transition: transform 0.2s ease;
+    animation: float 3s ease-in-out infinite;
 }
 .skills-category:nth-child(2) {
     animation-delay: 0.3s;
