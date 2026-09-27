@@ -3,6 +3,11 @@ let navLinks=document.querySelector(".nav-links");
 toggleButton.addEventListener("click", function (){
     navLinks.classList.toggle("active");
 });
+navLinks.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function () {
+        navLinks.classList.remove("active");
+    });
+});
 const themeToggle= document.getElementById("theme-toggle");
 themeToggle.addEventListener('click', function (){
     document.body.classList.toggle('dark-mode');});

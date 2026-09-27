@@ -51,6 +51,8 @@ body {
     background-color: var(--bg-color);
 }
 nav {
+    position: relative;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,8 +91,11 @@ display: none;
 .toggle {
     display: none;
     flex-direction: column;
+    justify-content: center;
     gap: 5px;
     cursor: pointer;
+    padding: 8px;
+    z-index: 101;
 }
 body.dark-mode .theme-btn .moon-icon {
     display: none;
@@ -661,12 +666,14 @@ nav a:hover {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 70px;
+        top: 100%;
         left: 0;
         width: 100%;
         background-color: var(--bg-color);
         padding: 20px;
         text-align: center;
+        z-index: 100;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
     }
     .logo-image {
         width: 35px;
