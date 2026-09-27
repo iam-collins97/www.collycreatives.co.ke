@@ -216,6 +216,15 @@ body.dark-mode .theme-btn .sun-icon {
     margin-left: auto;
     margin-right: auto;
 }
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 .skills {
     text-align: center;
     padding: 100px 20px;
@@ -250,7 +259,7 @@ body.dark-mode .theme-btn .sun-icon {
     border-radius: 10px;
     margin-bottom: 30px;
     text-align: left;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, opacity 0.6s ease;
 }
 .skills-category h3 {
     font-size: 28px;
@@ -315,7 +324,7 @@ body.dark-mode .theme-btn .sun-icon {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, opacity 0.6s ease;
 }
 @keyframes float {
     0% {
