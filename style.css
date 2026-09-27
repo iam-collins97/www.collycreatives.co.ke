@@ -108,9 +108,19 @@ body.dark-mode .theme-btn .sun-icon {
     height: auto;
 }
 .hero {
+    position: relative;
+    z-index: 0;
     text-align: center;
     padding: 100px 20px;
     background-color: var(--bg-secondary);
+}
+#particle-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 .hero h1 {
     font-size: 80px;
