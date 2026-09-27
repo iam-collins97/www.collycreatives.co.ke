@@ -314,6 +314,18 @@ body.dark-mode .theme-btn .sun-icon {
     margin-left: auto;
     margin-right: auto;
     transition: transform 0.2s ease;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 .project-card h3 {
     font-size: 28px;
