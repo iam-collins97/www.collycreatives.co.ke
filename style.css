@@ -1,4 +1,4 @@
- :root {
+:root {
     --primary-color: #dd3126;
     --text-color: #20295b;
     --bg-color: #ffffff;
@@ -221,9 +221,6 @@ body.dark-mode .theme-btn .sun-icon {
     padding: 100px 20px;
     background-color: var(--bg-secondary);
 }
-.skill:nth-child(odd) {
-    animation-delay: 0.4s;
-}
 .skills h2 {
     font-size: 40px;
     margin-bottom: 20px;
@@ -254,19 +251,6 @@ body.dark-mode .theme-btn .sun-icon {
     margin-bottom: 30px;
     text-align: left;
     transition: transform 0.2s ease;
-    animation: float 3s ease-in-out infinite;
-}
-.skills-category:nth-child(2) {
-    animation-delay: 0.3s;
-}
-.skills-category:nth-child(3) {
-    animation-delay: 0.6s;
-}
-.skills-category:nth-child(4) {
-    animation-delay: 0.9s;
-}
-.skills-category:nth-child(5) {
-    animation-delay: 1.2s;
 }
 .skills-category h3 {
     font-size: 28px;
@@ -300,7 +284,6 @@ body.dark-mode .theme-btn .sun-icon {
     border-radius: 20px;
     font-size: 14px;
     transition: transform 0.2s ease;
-    animation: float 3s ease-in-out infinite;
 }
 .projects {
     text-align: center;
@@ -333,13 +316,6 @@ body.dark-mode .theme-btn .sun-icon {
     margin-left: auto;
     margin-right: auto;
     transition: transform 0.2s ease;
-    animation: float 3s ease-in-out infinite;
-}
-.project-card:nth-child(2) {
-    animation-delay: 0.5s;
-}
-.project-card:nth-child(3) {
-    animation-delay: 1s;
 }
 @keyframes float {
     0% {
@@ -394,7 +370,6 @@ body.dark-mode .theme-btn .sun-icon {
     padding: 20px;
     border-radius: 8px;
     transition: transform 0.2s ease;
-    animation: float 3s ease-in-out infinite;
 }
 .service p {
     text-align: left;
@@ -412,10 +387,6 @@ body.dark-mode .theme-btn .sun-icon {
     border-radius: 20px;
     font-size: 14px;
     transition: transform 0.2s ease;
-    animation: float 3s ease-in-out infinite;
-}
-.tag:nth-child(odd) {
-    animation-delay: 0.4s;
 }
 .project-link {
     display: inline-block;
@@ -484,7 +455,6 @@ body.dark-mode .theme-btn .sun-icon {
     align-items: center;
     gap: 16px;
     transition: transform 0.2s ease;
-    animation: float 3s ease-in-out infinite;
 }
 .info-icon {
     width: 44px;
@@ -530,11 +500,6 @@ body.dark-mode .theme-btn .sun-icon {
     cursor: pointer;
     align-self: self-start;
     transition: transform 0.2s ease;
-}
-.footer-about,
-.footer-links,
-.footer-tech {
-    animation: float 3s ease-in-out infinite;
 }
 .footer {
     text-align: left;
@@ -599,10 +564,6 @@ body.dark-mode .theme-btn .sun-icon {
     font-size: 18px;
     text-decoration: none;
     transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
-    animation: float 3s ease-in-out infinite;
-}
-.social-icons a:nth-child(even) {
-    animation-delay: 0.3s;
 }
 nav a {
     text-decoration: none;
@@ -657,7 +618,6 @@ nav a:hover {
 .btn-outlined:active,
 .btn-submit:active {
     transform: scale(0.96);
-    animation: float 3s ease-in-out infinite;
 }
 .info-card:active,
 .project-card:active,

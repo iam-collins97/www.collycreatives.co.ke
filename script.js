@@ -38,8 +38,6 @@ function drawParticles() {
         ctx.fill();
     }
 }
-
-drawParticles();
 function updateParticles() {
     for (let i = 0; i < particles.length; i++) {
         const p = particles[i];
