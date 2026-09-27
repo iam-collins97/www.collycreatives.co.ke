@@ -174,6 +174,7 @@ body.dark-mode .theme-btn .sun-icon {
     border-radius: 50%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    animation: float 3s ease-in-out infinite;
 }
 .about h2 {
     font-size: 40px;
@@ -204,6 +205,7 @@ body.dark-mode .theme-btn .sun-icon {
     background-color: var(--card-bg);
     border-left: 4px solid var(--primary-color);
     font-style: italic;
+    animation: float 3s ease-in-out infinite;
 }
 .about p,
 .philosophy,
@@ -392,6 +394,7 @@ body.dark-mode .theme-btn .sun-icon {
     padding: 20px;
     border-radius: 8px;
     transition: transform 0.2s ease;
+    animation: float 3s ease-in-out infinite;
 }
 .service p {
     text-align: left;
@@ -409,6 +412,10 @@ body.dark-mode .theme-btn .sun-icon {
     border-radius: 20px;
     font-size: 14px;
     transition: transform 0.2s ease;
+    animation: float 3s ease-in-out infinite;
+}
+.tag:nth-child(odd) {
+    animation-delay: 0.4s;
 }
 .project-link {
     display: inline-block;
@@ -477,6 +484,7 @@ body.dark-mode .theme-btn .sun-icon {
     align-items: center;
     gap: 16px;
     transition: transform 0.2s ease;
+    animation: float 3s ease-in-out infinite;
 }
 .info-icon {
     width: 44px;
@@ -522,6 +530,11 @@ body.dark-mode .theme-btn .sun-icon {
     cursor: pointer;
     align-self: self-start;
     transition: transform 0.2s ease;
+}
+.footer-about,
+.footer-links,
+.footer-tech {
+    animation: float 3s ease-in-out infinite;
 }
 .footer {
     text-align: left;
@@ -586,6 +599,10 @@ body.dark-mode .theme-btn .sun-icon {
     font-size: 18px;
     text-decoration: none;
     transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+    animation: float 3s ease-in-out infinite;
+}
+.social-icons a:nth-child(even) {
+    animation-delay: 0.3s;
 }
 nav a {
     text-decoration: none;
@@ -617,6 +634,7 @@ nav a:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    animation: float 3s ease-in-out infinite;
 }
 .whatsapp-float:hover {
     transform: scale(1.1);
@@ -639,6 +657,7 @@ nav a:hover {
 .btn-outlined:active,
 .btn-submit:active {
     transform: scale(0.96);
+    animation: float 3s ease-in-out infinite;
 }
 .info-card:active,
 .project-card:active,
