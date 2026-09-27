@@ -282,6 +282,7 @@ body.dark-mode .theme-btn .sun-icon {
     border-radius: 20px;
     font-size: 14px;
     transition: transform 0.2s ease;
+    animation: float 3s ease-in-out infinite;
 }
 .projects {
     text-align: center;
