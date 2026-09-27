@@ -29,6 +29,7 @@ for (let i = 0; i < particleCount; i++) {
 function drawParticles() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = '#dd3126';
+    drawLines();
 
     for (let i = 0; i < particles.length; i++) {
         const p = particles[i];
@@ -61,3 +62,21 @@ function animate() {
 }
 
 animate();
+function drawLines() {
+    for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+            const dx = particles[i].x - particles[j].x;
+            const dy = particles[i].y - particles[j].y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance < 120) {
+                ctx.beginPath();
+                ctx.strokeStyle = `rgba(221, 49, 38, ${1 - distance / 120})`;
+                ctx.lineWidth = 1;
+                ctx.moveTo(particles[i].x, particles[i].y);
+                ctx.lineTo(particles[j].x, particles[j].y);
+                ctx.stroke();
+            }
+        }
+    }
+}
