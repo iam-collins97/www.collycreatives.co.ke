@@ -15,7 +15,7 @@
     --card-bg: #1a1a1a;
     --card-alt: #2a2a2a;
     --footer-big: #000000;
-    --footer-tex: #ffffff;
+    --footer-text: #ffffff;
  }
  body.dark-mode .logo {
     background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
