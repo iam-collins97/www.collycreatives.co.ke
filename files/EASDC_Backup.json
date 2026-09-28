@@ -1,0 +1,1432 @@
+{
+  "appData": {
+    "teams": [
+      {
+        "id": 1,
+        "school": "Namulungu mixed Sec school",
+        "county": "Kakamega",
+        "country": "Kenya",
+        "team": "Nams",
+        "cat": "English",
+        "debators": [
+          "Elizabeth Kundu",
+          "Tata",
+          "Fanuel"
+        ]
+      },
+      {
+        "id": 2,
+        "school": "St Elizabeth Girls Morpus",
+        "county": "West Pokot",
+        "country": "Kenya",
+        "team": "Darling Wisdom",
+        "cat": "English",
+        "debators": [
+          "Ruth Chepkemoi",
+          "Tabitha Chemai",
+          "Riam Gai"
+        ]
+      },
+      {
+        "id": 4,
+        "school": "GITHUNGURI MIXED",
+        "county": "MURANG'A",
+        "country": "KENYA",
+        "team": "BRONZE",
+        "cat": "English",
+        "debators": [
+          "JACKLINE WAITHIRA WANJIRU",
+          "PURITY MUTHONI MUNGAI",
+          "EUNICE WAMBUI NGANGA"
+        ]
+      },
+      {
+        "id": 5,
+        "school": "Koderobara  Senior School",
+        "county": "Migori",
+        "country": "Kenya",
+        "team": "KOSES Kings",
+        "cat": "English",
+        "debators": [
+          "Elvis Onyango",
+          "Alcent Jalex",
+          "Collins Odiwuor"
+        ]
+      },
+      {
+        "id": 6,
+        "school": "Githunguri Girls High School",
+        "county": "Murang'a",
+        "country": "Kenya",
+        "team": "Undisputed",
+        "cat": "English",
+        "debators": [
+          "Regina Wambui Karanja",
+          "Shanice Nyatichi Nyasani",
+          "Mariabel Wamuyu Wanjiku"
+        ]
+      },
+      {
+        "id": 7,
+        "school": "Kisumu Girls",
+        "county": "Kisumu",
+        "country": "Kenya",
+        "team": "Excelsior",
+        "cat": "English",
+        "debators": [
+          "Mitchell Kibet",
+          "Sharon Awino",
+          "Nadia Chelangat"
+        ]
+      },
+      {
+        "id": 8,
+        "school": "Gituru senior school",
+        "county": "Muranga",
+        "country": "Kenyan",
+        "team": "Vanquishers",
+        "cat": "English",
+        "debators": [
+          "Fabian maina",
+          "Peter Ndu'gu",
+          "Dolnad Prince"
+        ]
+      },
+      {
+        "id": 9,
+        "school": "Gendia High School",
+        "county": "Homabay",
+        "country": "Kenya",
+        "team": "N/A",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "N/A",
+          "N/A",
+          "N/A"
+        ]
+      },
+      {
+        "id": 10,
+        "school": "Adelaide Schools",
+        "county": "Nakuru",
+        "country": "Kenya",
+        "team": "The Enablers",
+        "cat": "English",
+        "debators": [
+          "Jayden Jude",
+          "Jessy Shani",
+          "Brayden William"
+        ]
+      },
+      {
+        "id": 11,
+        "school": "RAVINE GREEN VIEW SCHOOL",
+        "county": "BARINGO",
+        "country": "KENYA",
+        "team": "GV  STARS",
+        "cat": "English",
+        "debators": [
+          "BLESSING NGETICH",
+          "SANDRA KIBET",
+          "NATASHA JEPTUMO"
+        ]
+      },
+      {
+        "id": 12,
+        "school": "Githumu Boys High School",
+        "county": "Muranga",
+        "country": "Kenya",
+        "team": "None",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 13,
+        "school": "MUHOHO HIGH SCHOOL",
+        "county": "KIAMBU",
+        "country": "KENYA",
+        "team": "TRIPARTITES",
+        "cat": "English",
+        "debators": [
+          "JOHN MWANGI",
+          "ISHMAEL MUTUKU",
+          "REGAN KIOKO"
+        ]
+      },
+      {
+        "id": 14,
+        "school": "Ribe Boys High School",
+        "county": "Kilifi",
+        "country": "Kenya",
+        "team": "Top Seed",
+        "cat": "English",
+        "debators": [
+          "Vincent Vue",
+          "Wilfred Kore",
+          "Isaiah Nguta"
+        ]
+      },
+      {
+        "id": 15,
+        "school": "Chango Secondary",
+        "county": "Vihiga",
+        "country": "Kenya",
+        "team": "Translovanians",
+        "cat": "English",
+        "debators": [
+          "Harriet Makungu",
+          "Joseph Hill Ochieng Otieno",
+          "Bramuel Baraka"
+        ]
+      },
+      {
+        "id": 16,
+        "school": "Gatitu secondary school",
+        "county": "Murang'a",
+        "country": "Kenya",
+        "team": "N/A",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 17,
+        "school": "PCEA ENOOMATASIANI BOOTH BOYS HIGH SCHOOL",
+        "county": "KAJIADO",
+        "country": "KENYA",
+        "team": "EXCELLENCE",
+        "cat": "English",
+        "debators": [
+          "BENJAMIN MBUGUA",
+          "LEKINA LEMARON",
+          "JESSE KARANGATHI"
+        ]
+      },
+      {
+        "id": 18,
+        "school": "Our Lady of Fatima Kiriko Girls Senior School",
+        "county": "Kiambu",
+        "country": "Kenya",
+        "team": "Team Favoured",
+        "cat": "English",
+        "debators": [
+          "Faith Nyambura",
+          "Husna Wangeci",
+          "Nelius Kerubo"
+        ]
+      },
+      {
+        "id": 19,
+        "school": "Kaimosi Boys Senior School",
+        "county": "Vihiga",
+        "country": "Kenya",
+        "team": "Go-getters",
+        "cat": "English",
+        "debators": [
+          "Naphtal Maloba Mbaye",
+          "Aseri Peter",
+          "Trevor Tiema"
+        ]
+      },
+      {
+        "id": 20,
+        "school": "St Germaine Gatanga Girls",
+        "county": "Muranga",
+        "country": "Kenya",
+        "team": "Stephanie Njoki Chege",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 21,
+        "school": "Kowuor Mixed &Senior School",
+        "county": "HomaBay",
+        "country": "Kenya",
+        "team": "Malkia",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 22,
+        "school": "ST. THERESA'S TARTAR GIRLS",
+        "county": "West pokot",
+        "country": "Kenya",
+        "team": "THE REAL TRAIL BLAZERS",
+        "cat": "English",
+        "debators": [
+          "MARIPET EVELYNE",
+          "EMMA JELAGAT",
+          "CHARLENE NYANGOHA"
+        ]
+      },
+      {
+        "id": 23,
+        "school": "Kairi secondary school",
+        "county": "Kiambu",
+        "country": "Kenya",
+        "team": "Obsidian",
+        "cat": "English",
+        "debators": [
+          "Shammah paul",
+          "Raphael chege",
+          "Stanley mungai"
+        ],
+        "level": "Primary School"
+      },
+      {
+        "id": 24,
+        "school": "Ossen girls secondary school",
+        "county": "Baringo",
+        "country": "Kenya",
+        "team": "N/A",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "N/A",
+          "N/A",
+          "N/A"
+        ]
+      },
+      {
+        "id": 25,
+        "school": "Mang`u High",
+        "county": "Kiambu",
+        "country": "Kenya",
+        "team": "New York",
+        "cat": "English",
+        "debators": [
+          "Raphael Mose",
+          "Otom Bradley",
+          "Nelson Karoki"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 26,
+        "school": "Mang`u High",
+        "county": "Kiambu",
+        "country": "Kenya",
+        "team": "MONACO",
+        "cat": "English",
+        "debators": [
+          "John Githinji",
+          "Issac Baraka",
+          "Zachariah Orucha"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 27,
+        "school": "Mang'u High School",
+        "county": "Kiambu",
+        "country": "Kenya",
+        "team": "Berlin",
+        "cat": "English",
+        "debators": [
+          "Samwel Mutugi",
+          "Stephen Kimuchu",
+          "Immanuel Wambugu"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 28,
+        "school": "Mangu high school",
+        "county": "kiambu",
+        "country": "kenya",
+        "team": "Kyoto",
+        "cat": "English",
+        "debators": [
+          "Alex Maina",
+          "Aaron Kaburia",
+          "Devin Kamau"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 29,
+        "school": "Mang'u High",
+        "county": "Kiambu",
+        "country": "Kenya",
+        "team": "belfast",
+        "cat": "English",
+        "debators": [
+          "Stanley Ray",
+          "Samuel Maina",
+          "Amir Ahmad"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 30,
+        "school": "KANGUBIRI GIRLS HIGH SCHOOL",
+        "county": "NYERI",
+        "country": "KENYA",
+        "team": "PHOENIX",
+        "cat": "English",
+        "debators": [
+          "Gabriella Wambui Wanjiku",
+          "Nancy Muthoni Mbugua",
+          "Hope Wanjiku Kihiko"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 31,
+        "school": "BARANI SENIOR SCHOOL",
+        "county": "KILIFI",
+        "country": "KENYA",
+        "team": "VINARA",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 32,
+        "school": "Migori Boys",
+        "county": "Migori",
+        "country": "Kenya",
+        "team": "Debating Dynamos",
+        "cat": "English",
+        "debators": [
+          "Emmanuel Mbohani",
+          "Lewis Njoroge",
+          "Peter Opiyo"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 33,
+        "school": "Thika Girls karibaribi",
+        "county": "Kiambu",
+        "country": "Kenya",
+        "team": "N/A",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 34,
+        "school": "BURUBURU GIRLS SENIOR SCHOOL",
+        "county": "NNAIROBI",
+        "country": "Kenya",
+        "team": "Freedom Speakers",
+        "cat": "English",
+        "debators": [
+          "Anna Wanjiku",
+          "Mercy Njoki",
+          "Becky Moraa"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 35,
+        "school": "CHINGA BOYS SENIOR SCHOOL",
+        "county": "NYERI",
+        "country": "KENYA",
+        "team": "INFERNO",
+        "cat": "English",
+        "debators": [
+          "DELVIN KARIMI",
+          "JOSEPH KIGAITHO",
+          "LEONEL NJIMU"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 36,
+        "school": "Kalela junior",
+        "county": "Taita Taveta",
+        "country": "Kenya",
+        "team": "BTS",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "Ascar Nankunda",
+          "Comfort Wanyika",
+          "Joe Joshua"
+        ]
+      },
+      {
+        "id": 37,
+        "school": "KABARE GIRLS' HIGH SCHOOL",
+        "county": "KIRINYAGA",
+        "country": "KENYA",
+        "team": "THE MIGHTY",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "AISHA MOHAMMED",
+          "HADASSA WAMBUI",
+          "HOPE NGINA"
+        ]
+      },
+      {
+        "id": 38,
+        "school": "KABARE GIRLS' HIGH SCHOOL",
+        "county": "KIRINYAGA",
+        "country": "KENYA",
+        "team": "THE GREAT",
+        "cat": "English",
+        "debators": [
+          "GIFT KATHURE",
+          "VICTORIA KABARI",
+          "JOY KIAMBO"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 39,
+        "school": "KABARE GIRLS' HIGH SCHOOL",
+        "county": "KIRINYAGA",
+        "country": "KENYA",
+        "team": "THE STARLETS",
+        "cat": "English",
+        "debators": [
+          "GIFT WANJIKU",
+          "MARY SHANTEL",
+          "HOPE WANGUI"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 40,
+        "school": "GREEN VIEW SCHOOL KABIMOI",
+        "county": "BARINGO",
+        "country": "KENYA",
+        "team": "N/A",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 41,
+        "school": "PCEA Kahawa Sukari Booth Girls Senior School",
+        "county": "Kiambu",
+        "country": "Kenya",
+        "team": "Kahawa Queens",
+        "cat": "English",
+        "debators": [
+          "Delishya Wamaitha Wamuhu",
+          "Lily Njoki Mbugua",
+          "Abigael Wangeci Cyrus"
+        ],
+        "level": "Primary School"
+      },
+      {
+        "id": 42,
+        "school": "Maseno School",
+        "county": "Kisumu",
+        "country": "Kenya",
+        "team": "Legends of Tomorrow",
+        "cat": "English",
+        "debators": [
+          "Emsley Riol",
+          "Jack Omondi",
+          "Ryan Ransley"
+        ],
+        "level": "Primary School"
+      },
+      {
+        "id": 43,
+        "school": "Sinyolo girls",
+        "county": "kisumu",
+        "country": "kenya",
+        "team": "Falcons",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "id": 44,
+        "school": "GAICHANJIRU HIGH SCHOOL",
+        "county": "MURANG'A",
+        "country": "KENYA",
+        "team": "FURIOUS",
+        "cat": "English",
+        "debators": [
+          "JOSEPH MUUGI THONGORO",
+          "ANTONY MARK MIRARA",
+          "DARREN DAVE MWAURA"
+        ],
+        "level": "Primary School"
+      },
+      {
+        "id": 45,
+        "school": "GAICHANJIRU HIGH SCHOOL",
+        "county": "MURANG'A",
+        "country": "KENYA",
+        "team": "PERENNIALS",
+        "cat": "English",
+        "debators": [
+          "CRAYNE GITHAE",
+          "NATHANIEL KAHENYA",
+          "KEITH KIHUMBA"
+        ],
+        "level": "High School"
+      },
+      {
+        "id": 46,
+        "school": "Turuturu sec school",
+        "county": "Murang'a",
+        "country": "Kenya",
+        "team": "TURUTURU SEC",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "N/A",
+          "N/A",
+          "N/A"
+        ]
+      },
+      {
+        "id": 47,
+        "school": "ST TERESA MOI EQUATOR GIRLS SENIOR SCHOOL",
+        "county": "NYERI",
+        "country": "KENYA",
+        "team": "Ascenders",
+        "cat": "UNASSIGNED",
+        "debators": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "categories": [
+      "UNASSIGNED",
+      "English",
+      "Kiswahili",
+      "French"
+    ],
+    "rounds": [
+      "Round 1",
+      "Round 2",
+      "Round 3"
+    ],
+    "results": {
+      "39::Round 1": {
+        "result": "Win",
+        "marks": [
+          20,
+          21,
+          23
+        ]
+      },
+      "43::Round 1": {
+        "result": "Loss",
+        "marks": [
+          20,
+          14,
+          12
+        ]
+      },
+      "1::Round 1": {
+        "result": "Win",
+        "marks": [
+          22,
+          22,
+          22
+        ]
+      },
+      "2::Round 1": {
+        "result": "Loss",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "4::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "5::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "6::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "7::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "8::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "9::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "10::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "11::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "12::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "13::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "14::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "15::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "16::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "17::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "18::Round 1": {
+        "result": "Loss",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "19::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "20::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "21::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "22::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "23::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "24::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "25::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "26::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "27::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "28::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "29::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "30::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "31::Round 1": {
+        "result": "Win",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "32::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "33::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "34::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "35::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "36::Round 1": {
+        "result": "Win",
+        "marks": [
+          15,
+          15,
+          15
+        ]
+      },
+      "37::Round 1": {
+        "result": "Loss",
+        "marks": [
+          10,
+          10,
+          10
+        ]
+      },
+      "38::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "40::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "41::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "42::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "44::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "45::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "46::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "47::Round 1": {
+        "result": "",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "31::Round 2": {
+        "result": "Win",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "42::Round 2": {
+        "result": "Loss",
+        "marks": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "nextTeamId": 48,
+    "judges": [
+      {
+        "id": 2,
+        "name": "Zablon Otieno",
+        "school": "Naja",
+        "county": "Kericho",
+        "country": "Kenya",
+        "cat": "English"
+      },
+      {
+        "id": 3,
+        "name": "Collins Weche",
+        "school": "Mia",
+        "county": "Bomet",
+        "country": "Kenya",
+        "cat": "English"
+      },
+      {
+        "id": 4,
+        "name": "Edyy",
+        "school": "Kisumu Boys",
+        "county": "Kisumu",
+        "country": "Kenya",
+        "cat": "English"
+      },
+      {
+        "id": 5,
+        "name": "kibet",
+        "school": "Mombasa",
+        "county": "Mombasa",
+        "country": "Kenya",
+        "cat": "English"
+      }
+    ],
+    "nextJudgeId": 6,
+    "pools": {
+      "English::Primary School::A": {
+        "cat": "English",
+        "level": "Primary School",
+        "letter": "A",
+        "teams": [
+          41,
+          44
+        ]
+      },
+      "English::Primary School::B": {
+        "cat": "English",
+        "level": "Primary School",
+        "letter": "B",
+        "teams": [
+          23,
+          42
+        ]
+      },
+      "English::High School::A": {
+        "cat": "English",
+        "level": "High School",
+        "letter": "A",
+        "teams": [
+          26,
+          35,
+          27,
+          45,
+          32,
+          39
+        ]
+      },
+      "English::High School::B": {
+        "cat": "English",
+        "level": "High School",
+        "letter": "B",
+        "teams": [
+          28,
+          34,
+          25,
+          29,
+          38,
+          30
+        ]
+      }
+    },
+    "fixtures": [
+      {
+        "id": 88,
+        "round": "Round 1",
+        "pool": "English::Primary School::A",
+        "team1": 41,
+        "team2": 44,
+        "judge": 2
+      },
+      {
+        "id": 89,
+        "round": "Round 1",
+        "pool": "English::Primary School::B",
+        "team1": 23,
+        "team2": 42,
+        "judge": 3
+      },
+      {
+        "id": 90,
+        "round": "Round 1",
+        "pool": "English::High School::A",
+        "team1": 26,
+        "team2": 39,
+        "judge": 4
+      },
+      {
+        "id": 91,
+        "round": "Round 1",
+        "pool": "English::High School::A",
+        "team1": 35,
+        "team2": 32,
+        "judge": 5
+      },
+      {
+        "id": 92,
+        "round": "Round 1",
+        "pool": "English::High School::A",
+        "team1": 27,
+        "team2": 45,
+        "judge": 2
+      },
+      {
+        "id": 93,
+        "round": "Round 1",
+        "pool": "English::High School::B",
+        "team1": 28,
+        "team2": 30,
+        "judge": 2
+      },
+      {
+        "id": 94,
+        "round": "Round 1",
+        "pool": "English::High School::B",
+        "team1": 34,
+        "team2": 38,
+        "judge": 2
+      },
+      {
+        "id": 95,
+        "round": "Round 1",
+        "pool": "English::High School::B",
+        "team1": 25,
+        "team2": 29,
+        "judge": 2
+      },
+      {
+        "id": 96,
+        "round": "Round 2",
+        "pool": "English::Primary School::A",
+        "team1": 41,
+        "team2": 44,
+        "judge": 2
+      },
+      {
+        "id": 97,
+        "round": "Round 2",
+        "pool": "English::Primary School::B",
+        "team1": 23,
+        "team2": 42,
+        "judge": 3
+      },
+      {
+        "id": 98,
+        "round": "Round 2",
+        "pool": "English::High School::A",
+        "team1": 26,
+        "team2": 32,
+        "judge": 4
+      },
+      {
+        "id": 99,
+        "round": "Round 2",
+        "pool": "English::High School::A",
+        "team1": 39,
+        "team2": 45,
+        "judge": 5
+      },
+      {
+        "id": 100,
+        "round": "Round 2",
+        "pool": "English::High School::A",
+        "team1": 35,
+        "team2": 27,
+        "judge": 2
+      },
+      {
+        "id": 101,
+        "round": "Round 2",
+        "pool": "English::High School::B",
+        "team1": 28,
+        "team2": 38,
+        "judge": 2
+      },
+      {
+        "id": 102,
+        "round": "Round 2",
+        "pool": "English::High School::B",
+        "team1": 30,
+        "team2": 29,
+        "judge": 2
+      },
+      {
+        "id": 103,
+        "round": "Round 2",
+        "pool": "English::High School::B",
+        "team1": 34,
+        "team2": 25,
+        "judge": 2
+      },
+      {
+        "id": 104,
+        "round": "Round 3",
+        "pool": "English::Primary School::A",
+        "team1": 41,
+        "team2": 44,
+        "judge": 2
+      },
+      {
+        "id": 105,
+        "round": "Round 3",
+        "pool": "English::Primary School::B",
+        "team1": 23,
+        "team2": 42,
+        "judge": 3
+      },
+      {
+        "id": 106,
+        "round": "Round 3",
+        "pool": "English::High School::A",
+        "team1": 26,
+        "team2": 45,
+        "judge": 4
+      },
+      {
+        "id": 107,
+        "round": "Round 3",
+        "pool": "English::High School::A",
+        "team1": 32,
+        "team2": 27,
+        "judge": 5
+      },
+      {
+        "id": 108,
+        "round": "Round 3",
+        "pool": "English::High School::A",
+        "team1": 39,
+        "team2": 35,
+        "judge": 2
+      },
+      {
+        "id": 109,
+        "round": "Round 3",
+        "pool": "English::High School::B",
+        "team1": 28,
+        "team2": 29,
+        "judge": 2
+      },
+      {
+        "id": 110,
+        "round": "Round 3",
+        "pool": "English::High School::B",
+        "team1": 38,
+        "team2": 25,
+        "judge": 2
+      },
+      {
+        "id": 111,
+        "round": "Round 3",
+        "pool": "English::High School::B",
+        "team1": 30,
+        "team2": 34,
+        "judge": 2
+      }
+    ],
+    "nextFixtureId": 112,
+    "levels": [
+      "UNASSIGNED",
+      "Primary School",
+      "High School"
+    ],
+    "nextParticipantId": 2,
+    "individualEvents": {
+      "Spelling Bee": {
+        "name": "Spelling Bee",
+        "participants": [
+          {
+            "id": 1,
+            "name": "Mercy Lagat",
+            "school": "MMSHAH",
+            "cat": "English",
+            "level": "Primary School",
+            "judge": 5,
+            "marks": {
+              "Round 2": 0,
+              "Round 1": 22
+            },
+            "__ev": "Spelling Bee"
+          }
+        ],
+        "rounds": [
+          "Round 1",
+          "Round 2"
+        ]
+      },
+      "Public Speaking": {
+        "name": "Public Speaking",
+        "participants": [],
+        "rounds": [
+          "Round 1"
+        ]
+      }
+    },
+    "knockouts": [
+      {
+        "id": 1,
+        "name": "Main Cup",
+        "size": 4,
+        "stages": [
+          {
+            "name": "Semifinals",
+            "fixtures": [
+              {
+                "id": 1,
+                "team1": "Dynamos",
+                "team2": "Leos",
+                "judge": 5,
+                "score1": 66,
+                "score2": 24
+              },
+              {
+                "id": 2,
+                "team1": "",
+                "team2": "",
+                "judge": null,
+                "score1": 0,
+                "score2": 0
+              }
+            ]
+          },
+          {
+            "name": "Final",
+            "fixtures": [
+              {
+                "id": 3,
+                "team1": "Dynamos",
+                "team2": "",
+                "judge": null,
+                "score1": 0,
+                "score2": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "nextKnockoutId": 2,
+    "nextKnockoutFixtureId": 4
+  },
+  "users": [
+    {
+      "username": "zablon_baraka",
+      "judge_name": "Zablon Baraka",
+      "role": "judge",
+      "plain_password": null
+    },
+    {
+      "username": "collins_shiundu",
+      "judge_name": "Collins Shiundu",
+      "role": "judge",
+      "plain_password": null
+    },
+    {
+      "username": "collins",
+      "judge_name": "Collins",
+      "role": "judge",
+      "plain_password": null
+    },
+    {
+      "username": "shiundu",
+      "judge_name": "Shiundu",
+      "role": "judge",
+      "plain_password": null
+    },
+    {
+      "username": "zablon_otieno",
+      "judge_name": "Zablon Otieno",
+      "role": "judge",
+      "plain_password": null
+    },
+    {
+      "username": "collins_weche",
+      "judge_name": "Collins Weche",
+      "role": "judge",
+      "plain_password": null
+    },
+    {
+      "username": "collins_shiund",
+      "judge_name": "Collins Shiund",
+      "role": "judge",
+      "plain_password": null
+    },
+    {
+      "username": "edyy",
+      "judge_name": "Edyy",
+      "role": "judge",
+      "plain_password": "123456"
+    },
+    {
+      "username": "kibet",
+      "judge_name": "Kibet",
+      "role": "judge",
+      "plain_password": "kibet123"
+    }
+  ]
+}
