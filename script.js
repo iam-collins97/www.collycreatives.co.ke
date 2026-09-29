@@ -127,9 +127,14 @@ contactForm.addEventListener("submit", function (event) {
     return response.json();
   })
   .then(function (data) {
-       if (data.success) {
+           if (data.success) {
       alert("Thank you! Your message has been sent.");
-            contactForm.reset();
+      contactForm.reset();
+    } else {
+      alert("Sorry, your message could not be sent. Please try again or contact me on WhatsApp.");
     }
+  })
+    .catch(function (error) {
+    alert("Sorry, we could not reach the server. Please try again later or contact me on WhatsApp.");
   });
 });
