@@ -103,3 +103,33 @@ const observer = new IntersectionObserver(function (entries) {
 revealElements.forEach(function (element) {
     observer.observe(element);
 });
+
+const contactForm = document.getElementById("contact-form");
+contactForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+   const formData = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    phone: document.getElementById("phone").value,
+    message: document.getElementById("message").value
+  };
+
+  console.log(formData);
+
+    fetch("http://localhost:3000/contact", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+        body: JSON.stringify(formData)
+  })
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+       if (data.success) {
+      alert("Thank you! Your message has been sent.");
+            contactForm.reset();
+    }
+  });
+});
