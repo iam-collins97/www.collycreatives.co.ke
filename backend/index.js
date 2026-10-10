@@ -1,17 +1,10 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const nodemailer = require("nodemailer");
+const { Resend } = require("resend");
 const app = express();
 const PORT = process.env.PORT || 3000;
-
-const transporter = nodemailer.createTransport({
-  service: "gmail",
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS
-  }
-});
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 app.use(cors());
 app.use(express.json());
@@ -25,14 +18,18 @@ app.post("/contact", async function (req, res) {
     const { name, email, phone, message } = req.body;
 
       const mailOptions = {
-    from: process.env.EMAIL_USER,
+   from: "Colly Creatives <onboarding@resend.dev>",
     to: process.env.EMAIL_USER,
     replyTo: email,
     subject: "New message from " + name,
     text: "Name: " + name + "\nEmail: " + email + "\nPhone: " + phone + "\n\nMessage:\n" + message
   };
     try {
-    await transporter.sendMail(mailOptions);
+    const { error } = await resend.emails.send(mailOptions);
+if (error) {
+  console.log(error);
+  return res.status(500).json({ success: false });
+}
     res.json({ success: true });
   } catch (error) {
     console.log(error);
