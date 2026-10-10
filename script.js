@@ -116,7 +116,7 @@ contactForm.addEventListener("submit", function (event) {
 
   console.log(formData);
 
-    fetch("http://localhost:3000/contact", {
+   fetch("https://colly-backend.onrender.com/contact", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
