@@ -9,6 +9,8 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 app.use(cors({
   origin: [
     "https://iam-collins97.github.io",
+    "https://collycreatives.co.ke",
+    "https://www.collycreatives.co.ke",
     "http://127.0.0.1:5500",
     "http://localhost:5500"
   ]
