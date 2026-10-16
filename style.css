@@ -420,11 +420,13 @@ body.dark-mode .theme-btn .sun-icon {
     font-size: 12px;
     margin-left: 4px;
 }
-.testimonials {
+.testimonials,
+    .clients {
     text-align: center;
     padding: 100px 20px;
 }
-.testimonials h2 {
+.testimonials h2,
+.clients h2 {
     font-size: 40px;
     margin-bottom: 20px;
     position: relative;
@@ -445,7 +447,8 @@ body.dark-mode .theme-btn .sun-icon {
     left: 50%;
     transform: translateX(-50%);
 }
-.testimonials .section-label {
+.testimonials .section-label,
+.clients .section-label {
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -779,4 +782,16 @@ nav a:hover {
         width: 50px;
         height: 50px;
     }
+}
+.clients-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.client-logo img {
+    height: 60px;
+    width: auto;
 }
