@@ -436,7 +436,8 @@ body.dark-mode .theme-btn .sun-icon {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.testimonials h2::after {
+.testimonials h2::after,
+.clients h2::after {
     content: '';
     display: block;
     position: absolute;
