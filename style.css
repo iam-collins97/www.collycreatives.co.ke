@@ -785,14 +785,29 @@ nav a:hover {
     }
 }
 .clients-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    overflow: hidden;
 }
 
+.clients-track {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    animation: scroll-left 25s linear infinite;
+}
+
+.client-logo {
+    flex-shrink: 0;
+    padding: 0 30px;
+}
 .client-logo img {
     height: 60px;
     width: auto;
+}
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
