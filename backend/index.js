@@ -45,6 +45,28 @@ if (error) {
   }
 });
 
+app.post("/review", async function (req, res) {
+  const { name, role, rating, message } = req.body;
+
+  const mailOptions = {
+    from: "Colly Creatives <onboarding@resend.dev>",
+    to: process.env.EMAIL_USER,
+    subject: "New review from " + name,
+    text: "Name: " + name + "\nRole: " + role + "\nRating: " + rating + " out of 5\n\nReview:\n" + message
+  };
+
+  try {
+    const { error } = await resend.emails.send(mailOptions);
+    if (error) {
+      console.log(error);
+      return res.status(500).json({ success: false });
+    }
+    res.json({ success: true });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ success: false });
+  }
+});
 app.listen(PORT, function () {
   console.log("Server is running on port " + PORT);
 });

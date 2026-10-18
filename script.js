@@ -138,3 +138,38 @@ contactForm.addEventListener("submit", function (event) {
     alert("Sorry, we could not reach the server. Please try again later or contact me on WhatsApp.");
   });
 });
+
+const reviewForm = document.getElementById("review-form");
+
+reviewForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const reviewData = {
+        name: document.getElementById("review-name").value,
+        role: document.getElementById("review-role").value,
+        rating: document.getElementById("review-rating").value,
+        message: document.getElementById("review-message").value
+    };
+
+        fetch("https://colly-backend.onrender.com/review", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(reviewData)
+    })
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (data) {
+        if (data.success) {
+            alert("Thank you! Your review has been sent.");
+            reviewForm.reset();
+        } else {
+            alert("Sorry, your review could not be sent. Please try again or contact me on WhatsApp.");
+        }
+    })
+    .catch(function (error) {
+        alert("Sorry, we could not reach the server. Please try again later or contact me on WhatsApp.");
+    });
+});

@@ -388,6 +388,32 @@
         </div>
     </div>  
     </div>
+   <div class="review-form-box reveal">
+    <h3>Leave a Review</h3>
+    <p>Worked with me? Share your experience below.</p>
+    <form class="review-form" id="review-form">
+        <label for="review-name">Your Name</label>
+        <input type="text" id="review-name" name="name" placeholder="e.g. Jane Wanjiku" required>
+
+        <label for="review-role">Your Role and Business</label>
+        <input type="text" id="review-role" name="role" placeholder="e.g. Manager, Company Name" required>
+
+        <label for="review-rating">Your Rating</label>
+        <select id="review-rating" name="rating" required>
+            <option value="">Choose a rating</option>
+            <option value="5">5 stars - Excellent</option>
+            <option value="4">4 stars - Very good</option>
+            <option value="3">3 stars - Good</option>
+            <option value="2">2 stars - Fair</option>
+            <option value="1">1 star - Poor</option>
+        </select>
+
+        <label for="review-message">Your Review</label>
+        <textarea id="review-message" name="message" rows="5" placeholder="Tell us about your experience working with Colly Creatives." required></textarea>
+
+        <button type="submit" class="btn btn-submit">Submit Review</button>
+    </form>
+</div>
 </section>
 <section id="contact" class="contact">
 <h2>Get In Touch</h2>

@@ -811,3 +811,61 @@ nav a:hover {
         transform: translateX(-50%);
     }
 }
+
+.review-form-box {
+    max-width: 600px;
+    margin: 50px auto 0;
+    padding: 30px;
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s ease, opacity 0.6s ease, border-color 0.2s ease;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    margin-top: 25px;
+}
+.review-form label {
+    font-weight: bold;
+}
+
+.review-form-box h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, var(--primary-color), var(--text-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.review-form input,
+.review-form select,
+.review-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+}
+.review-form textarea {
+    resize: vertical;
+}
+.review-form input::placeholder,
+.review-form textarea::placeholder {
+    color: #888;
+    font-family: inherit;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .review-form-box:hover {
+        transform: translateY(-4px);
+        border-color: var(--primary-color);
+    }
+}
+.review-form-box:active {
+    border-color: var(--primary-color);
+}
