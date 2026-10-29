@@ -183,6 +183,14 @@ body.dark-mode .theme-btn .sun-icon {
     animation: button-breathe-navy 2.5s ease-out infinite;
     animation-delay: 1.25s;
 }
+.hero-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn-filled i {
+    transition: transform 0.2s ease;
+}
 .about {
     text-align: center;
     padding: 100px 20px;
@@ -887,6 +895,7 @@ nav a:hover {
 }
 @media (hover: hover) and (pointer: fine) {
     .btn-filled:hover { transform: translateY(-3px); }
+        .btn-filled:hover i { transform: translateX(5px); }
         .whatsapp-btn:hover { transform: translateY(-3px); }
     .btn-outlined:hover { transform: translateY(-3px); }
     .btn-submit:hover { transform: translateY(-3px); }
