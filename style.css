@@ -348,12 +348,12 @@ body.dark-mode .theme-btn .sun-icon {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 30px;
-        border: 1px solid var(--card-border);
+           border: 1px solid transparent;
     text-align: left;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    transition: transform 0.2s ease, opacity 0.6s ease;
+        transition: transform 0.2s ease, opacity 0.6s ease, border-color 0.2s ease;
 }
 @keyframes float {
     0% {
@@ -901,7 +901,7 @@ nav a:hover {
     .btn-submit:hover { transform: translateY(-3px); }
     .about-image:hover { transform: scale(1.08); }
     .info-card:hover { transform: translateY(-4px); }
-    .project-card:hover { transform: translateY(-4px); }
+        .project-card:hover { transform: translateY(-4px); border-color: var(--primary-color); }s
        .testimonial-card:hover { transform: translateY(-4px); border-color: var(--primary-color); }
     .service:hover { transform: translateY(-4px); }
     .skills-category:hover { transform: translateY(-4px); }
@@ -921,6 +921,9 @@ nav a:hover {
 .skill:active,
 .tag:active {
     transform: scale(0.97);
+}
+.project-card:active {
+    border-color: var(--primary-color);
 }
 .testimonial-card:active {
     border-color: var(--primary-color);
