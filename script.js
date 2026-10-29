@@ -173,3 +173,9 @@ reviewForm.addEventListener("submit", function (event) {
         alert("Sorry, we could not reach the server. Please try again later or contact me on WhatsApp.");
     });
 });
+const whatsappClose = document.getElementById("whatsapp-close");
+const whatsappCard = document.querySelector(".whatsapp-card");
+
+whatsappClose.addEventListener("click", function () {
+    whatsappCard.style.display = "none";
+});
