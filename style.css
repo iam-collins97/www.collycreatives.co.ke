@@ -163,16 +163,24 @@ body.dark-mode .theme-btn .sun-icon {
 .btn-filled {
     background-color: var(--primary-color);
     color: #ffffff;
-    border: 2px solid var(--primary-color);
+    border: 3px solid #ffffff;
+    border-right-color: var(--text-color);
+    border-bottom-color: var(--text-color);
+    border-radius: 50px;
+    letter-spacing: 1px;
     transition: transform 0.2s ease;
-        animation: button-breathe 2.5s ease-out infinite;
+    animation: button-breathe 2.5s ease-out infinite;
 }
 .btn-outlined {
     background-color: transparent;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
+    color: var(--text-color);
+    border: 3px solid var(--text-color);
+    border-right-color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+    border-radius: 50px;
+    letter-spacing: 1px;
     transition: transform 0.2s ease;
-        animation: button-breathe-navy 2.5s ease-out infinite;
+    animation: button-breathe-navy 2.5s ease-out infinite;
     animation-delay: 1.25s;
 }
 .about {
