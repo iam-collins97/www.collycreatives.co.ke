@@ -712,7 +712,7 @@ nav a:hover {
 }
 .whatsapp-widget {
     position: fixed;
-    bottom: 80px;
+    bottom: 30px;
     right: 30px;
     z-index: 1000;
     display: flex;
@@ -966,6 +966,19 @@ nav a:hover {
     body.dark-mode .logo {
         width: 50px;
         height: 50px;
+    }
+        .whatsapp-widget {
+        right: 15px;
+    }
+    .whatsapp-card {
+        width: 240px;
+        padding: 14px 16px;
+    }
+    .whatsapp-card h4 {
+        font-size: 16px;
+    }
+    .whatsapp-card p {
+        font-size: 13px;
     }
 }
 .clients-grid {
